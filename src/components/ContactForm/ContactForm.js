@@ -71,13 +71,9 @@ return(
 </div>
   );
   }
-// }
 
 ContactForm.protoTypes = {
   addContact: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
 };
-// ContactForm.propTypes = {
-//   onSubmit: PropTypes.func.isRequired,
-// };
