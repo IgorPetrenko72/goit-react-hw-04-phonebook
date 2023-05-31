@@ -74,6 +74,4 @@ return(
 
 ContactForm.protoTypes = {
   addContact: PropTypes.func.isRequired,
-  name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
 };
